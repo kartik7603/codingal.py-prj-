@@ -1,0 +1,10 @@
+name = input("Hello! What is your name? ")
+hobby = input("What is one of your favorite hobbies? ")
+
+
+welcome_message = f"Hello, {name}! I see your hobby is {hobby}."
+
+message_length = len(welcome_message)
+
+print("\n" + welcome_message)
+print(f"The total length of your personalized message is: {message_length} charactes.")
